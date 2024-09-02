@@ -1,0 +1,23 @@
+
+<svg width="140" height="140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="80.5" y1="51" x2="58" y2="74.5" id="b" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F8FB"/>
+      <stop offset="1" stop-color="#B9C6D5"/>
+    </linearGradient>
+    <filter id="a" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="13.333"/>
+      <feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.023529 0 0 0 0 0.32941 0 0 0 0.9 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+      <feBlend in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+    </filter>
+  </defs>
+  <g filter="url(#a)">
+    <circle cx="70" cy="66" r="30" fill="#346ea433"/>
+  </g>
+  <path d="M70 51c8.28 0 15 6.71 15 15 0 8.28-6.72 15-15 15-8.29 0-15-6.72-15-15 0-8.29 6.71-15 15-15Zm-7.43 15.19c-.55-.61-.51-1.56.1-2.11.62-.55 1.56-.51 2.12.11l3.73 4.12 8.08-8.34c.57-.59 1.52-.6 2.11-.03.6.58.61 1.53.03 2.12l-9.18 9.49v-.01c-.02.03-.05.05-.07.07-.61.55-1.56.51-2.11-.11l-4.81-5.31Z" fill="url(#b)" fill-rule="evenodd"/>
+</svg>
